@@ -1,5 +1,5 @@
 # Portfolio
-Responsive Portfolio Website
+<b>Responsive Portfolio Website </b>
 <ul>
   <li>
     <b>Home Page:</b> (Objective) Introduction, summary of skills, and a call-to-action button leading to the portfolio section. <br>
