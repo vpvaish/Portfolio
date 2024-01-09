@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="xyz.css">
+    <title>Your Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">VAISHNAVI PATIL</h1>
+        <p>HTML | CSS | JAVASCRIPT</p>
+        <a href="#portfolio" class="cta-button">View Portfolio</a>
+    </header>
+
+    <section id="portfolio" style="background-color: rgb(255, 255, 255); margin: 1cm; padding: 1cm; ">
+        <h1 style="text-align: center; background-color: rgb(29, 118, 130); color: white;" >PORTFOLIO</h1>
+        <!-- Portfolio items go here -->
+        <br>
+        <h2 class="btn btn-primary btn-lg">
+            Objective
+        </h2> <br> <br>
+        <p style="font-weight: bolder; font-size: larger; font-family: 'Times New Roman', Times, serif;">
+            Seeking a software engineer position where I can put my programming skills to use and contribute to the creation of creative solutions while working and growing as a developer in a collaborative atmosphere.
+        </p>
+        <br>
+        <h2 class="btn btn-primary btn-lg">
+            Projects
+        </h2>
+        <br> <br>
+        <ol>
+            <h5>
+                <li class="btn btn-dark btn-sm font-monospace" style="font-size: large;" >
+                    Calculator
+                </li>
+            </h5>
+                <ul style="font-family: 'Times New Roman', Times, serif; font-size: larger; ">
+                    <li>It is a simple calculator that performs basic arithmetic operations such as addition, subtraction, multiplication, and division</li>
+                    <li>the expression is invalid the calculator will display an error message.</li>
+                    <li>The calculator supports parentheses to allow for complex calculations. </li>
+                    <li><b>Technologies Used :</b>Javascript, HTML5, CSS </li>
+                </ul>
+                <br>
+            <h5>
+                <li class="btn btn-dark btn-sm font-monospace" style="font-size: large;" >
+                    To Do List
+                </li>
+            </h5>
+            <ul style="font-family: 'Times New Roman', Times, serif; font-size: larger;">
+                <li>Developed a To-Do List application to help users organize and manage their tasks efficiently.</li>
+                <li>Task Creation: Users can add new tasks to the list, specifying a title and optional details.</li>
+                <li>Implemented the ability to remove tasks from the list once completed or no longer needed.</li>
+                <li>Tasks can be marked as complete or incomplete to track progress.</li>
+                <li><b>Technologies Used :</b> HTML, CSS, Javascript</li>
+            </ul>
+            <br>
+            <h5>
+                <li class="btn btn-dark btn-sm font-monospace " style="font-size: large;" >
+                    Book My Show
+                </li>
+            </h5>
+            <ul style="font-family: 'Times New Roman', Times, serif; font-size: larger;">
+                <li>Revolutionized user engagement by creating a responsive and visually appealing movie-ticket booking platform. Enhanced user satisfaction with a 30% improvement in page load speed, resulting in a 20% increase in user interactions. </li>
+                <li><b>Technologies Used :</b>HTML, CSS, Javascript</li>
+            </ul>
+        </ol>
+    <!-- </section> -->
+
+    <section id="skills">
+        <h2 class="btn btn-primary btn-lg">
+            Skills
+        </h2>
+       <ul>
+        <li>
+            HTML
+        </li> <br>
+        <li>
+            CSS
+        </li> <br>
+        <li>
+            JavaScript
+        </li> <br>
+        <li>
+            BOOTSTRAP
+        </li> 
+       </ul>
+        <!-- Skills content goes here -->
+    </section>
+
+    <section id="contact">
+        <h2 class="btn btn-primary btn-lg">
+            Contact
+        </h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    </section>
+
+    <script src="xyz.js"></script>
+</body>
+</html>
